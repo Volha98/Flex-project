@@ -10,12 +10,12 @@ background-image: url("../img/background1.jpg");
 padding-bottom: 250px;
 background-position: center;
 }
-a {
+.more {
   color: white;
   text-decoration: none;
   padding-bottom: 28px;
   }
-a:hover {
+.more:hover {
   border-bottom: 4px solid white;
   }
 .indthebeggining {
@@ -169,11 +169,11 @@ h3 {
 padding-left: 50px;
 width: 40%;
 }
-.more {
+.more2 {
   text-decoration: none;
   color: #4985FF;
   }
-a:hover {
+.more2:hover {
   text-decoration: underline;
 }
 .fortheline::after {
@@ -270,11 +270,11 @@ font-size: 12px;}
 font-size: 12px;
 font-weight: bold;
 }
-.more1 {
+.more3 {
   text-decoration: none;
   color: #4985FF;
   }
-.more1:hover {
+.more3:hover {
   text-decoration: underline;
 }
 .line2::after {
@@ -327,11 +327,11 @@ padding-top: 50px;
       font-size: 36px;
       padding-bottom: 400px;
       }
-    .videoabout {
+      .videoabout {
+      padding-top: 20px;
+        padding-bottom: 20px;
       color: white;
-      padding-top: 40px;
-      padding-bottom: 20px;
-    font-size: 25px;
+      font-size: 25px;
     text-align: center;
     font-weight: bold;
     }
