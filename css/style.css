@@ -24,15 +24,11 @@ background-position: center;
   margin-left: 700px;
   padding-top: 30px;
    }
-li1,
-li2,
-li3,
-li4,
-li5 {
+li {
   text-align: right;
      font-size: 14px;
-     padding-bottom: 20px;
 padding-left: 40px;
+display: inline-block;
   }
 nav::after {
   content: "";
@@ -42,14 +38,14 @@ nav::after {
   display: block;
   background-color: white;
 }
-h1 {
+.description {
   margin-top: 100px;
     text-align: center;
     padding-bottom: 10px;
     font-size: 14px;
     color: white;
     }
-.description {
+h1 {
     text-align: center;
 font-size: 30px;
 font-weight: bold;
